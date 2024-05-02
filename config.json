@@ -1,0 +1,14 @@
+{
+    "erc20_contracts": [
+        {
+            "name": "Tether USD",
+            "symbol": "USDT",
+            "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+            "abi_path": "abis/erc20.abi"
+        }
+    ],
+    "etherum_endpoints": [
+        "https://yolo-shy-fog.discover.quiknode.pro/97f7aeb00bc7a8d80c3d4834a16cd9c86b54b552/",
+        "https://eth.drpc.org"
+    ]
+}
