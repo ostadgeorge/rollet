@@ -3,7 +3,7 @@ from django.db import models
 # Create your models here.
 
 class Wallet(models.Model):
-    address = models.CharField(max_length=100)
+    address = models.CharField(max_length=100, unique=True, primary_key=True, db_index=True)
     data = models.JSONField()
 
     def __str__(self):
